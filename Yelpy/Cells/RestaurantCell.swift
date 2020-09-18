@@ -11,7 +11,13 @@ import UIKit
 class RestaurantCell: UITableViewCell {
 
     @IBOutlet weak var restautantImage: UIImageView!
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var starsImage: UIImageView!
+    @IBOutlet weak var reviewsLabel: UILabel!
+    @IBOutlet weak var phoneLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
